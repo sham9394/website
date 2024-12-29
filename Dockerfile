@@ -10,5 +10,5 @@ COPY ./ /var/www/html/
 # Expose the default Apache port
 EXPOSE 80
 
-# Start the Apache server
+# Start the Apache server and check
 CMD ["apachectl", "-D", "FOREGROUND"]
